@@ -1,0 +1,17 @@
+condition,prediction,No_Of_Records_Supported,Support,Confidence,Lift
+TotalCharges > 141.5 & DeviceProtection = No internet service,No,725,0.137937595,0.961,1.3
+"ContractType in {One year, Two year}",No,1734,0.329908676,0.932,1.2
+"TotalCharges > 1076.25 & InternetServiceCategory in {DSL, No}",No,1638,0.311643836,0.924,1.2
+"Education in {Graduation, Masters, ProfessionalQalification} & InternetServiceCategory in {DSL, No}",No,1550,0.294901065,0.905,1.2
+"TotalCharges > 5915.25 & Education in {Graduation, Masters, ProfessionalQalification}",No,1568,0.298325723,0.862,1.2
+StreamingTelevision = No internet service,No,709,0.134893455,0.869,1.3
+TotalCharges > 404,No,3294,0.626712329,0.698,1
+"ContractType = Month-to-month & Education = Other & InternetServiceCategory in {DSL, No}",Yes,7,0.001331811,0.889,3.5
+"TotalCharges <= 1076.25 & ContractType = Month-to-month & Education = Highschool or below & DeviceProtection in {No, Yes}",Yes,138,0.026255708,0.75,3
+TotalCharges <= 5915.25 & ContractType = Month-to-month & InternetServiceCategory = Fiber optic,Yes,480,0.091324201,0.693,2.8
+"ContractType = Month-to-month & Education in {Highschool or below, Other} & InternetServiceCategory = Fiber optic",Yes,355,0.067541857,0.683,2.7
+TotalCharges <= 141.5 & Education = Highschool or below & DeviceProtection = No internet service,Yes,21,0.003995434,0.609,2.4
+TotalCharges <= 404 & ContractType = Month-to-month & StreamingTelevision = No,Yes,220,0.041856925,0.616,1.9
+"ContractType = Month-to-month & Education in {Highschool or below, Other} & InternetServiceCategory = Fiber optic",Yes,475,0.090372907,0.745,2.9
+TotalCharges <= 7328.75 & ContractType = Month-to-month & InternetServiceCategory = Fiber optic,Yes,725,0.137937595,0.715,2.8
+ContractType = Month-to-month & StreamingTelevision = Yes & TechnicalSupport = No,Yes,564,0.107305936,0.599,1.8

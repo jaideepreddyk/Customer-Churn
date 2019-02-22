@@ -1,0 +1,14 @@
+condition,prediction,No_Of_Records_Supported,Support,Confidence,Lift
+                                                                                                            YES CASES,,,,,
+"(0,1e+04],Fiber optic,Month-to-month",Yes,568,0.1072103,0.6339286,2.536672
+"(0,1e+04], (400,600], ElectronicBilling, Fiber optic, Month-to-month",Yes,283,0.0534163,0.7075,2.831069
+"(0,1e+04], (400,600], ElectronicBilling, Highschool or below, Fiber optic, Month-to-month",Yes,127,0.02397131,0.8089172,3.236891
+"(0,1e+04],(400,600], Electronic check, ElectronicBilling, Fiber optic, Highschool or below, MultipleLine",Yes,57,0.01075878,0.890625,3.563845
+"(0,1e+04],(400,600], DeviceProtection, ElectronicBilling,Fiber optic, Highschool or below, Month-to-month, StreamingMovies, StreamingTelevision",Yes,29,0.005473764,0.9354839,3.743349
+,,,,,
+                                                                                                            NO CASES,,,,,
+Two year,No,1308,0.2468856,0.9667406,1.288825
+"(0,1e+04],Two year",No,541,0.102114,0.9872263,1.316136
+"HasDepedents, HasPartner, Masters, Two year",No,159,0.03001133,1,1.333166
+"(4e+04,5e+04],Masters",No,15,0.002831257,1,1.333166
+"(4e+04,5e+04],Two year",No,58,0.010947527,1,1.333166
